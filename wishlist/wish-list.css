@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-wishlist {
+    text-align: center;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.wishlist {
+    position: relative;
+}
+
+.image {
+    height: 400px;
+    width: 350px;
+
+}
+
+.image:hover {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
+}
+
+.heart-symbol {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    background-color: white;
+    border: 2px solid rgb(34, 33, 33);
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.8rem;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.price-wishlist {
+    text-align: center;
+    margin: 0.6rem 0;
+}
+
+.move-to-cart {
+    padding: 0.5rem 6.7rem;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: silver;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(36, 50, 51);
+    color: white;
+}
+
+.my-wishlist-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 20px;
+
+}

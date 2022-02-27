@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-card</title>
+    <script src="https://kit.fontawesome.com/8ddd15368f.js"></script>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <header>
+            <nav class="navigation-bar">
+                <a class="title" href="/home-page.html">Kids Store</a>
+                <input class="search-bar" type="text" placeholder="search">
+                <ul class="side-nav-section">
+                    <li>
+                        <button class="login-btn">
+                            <a href="/login-signup/login.html">Login</a>
+                        </button>
+                    </li>
+                    <li>
+                        <a class="wishlist-btn btn" href="/wishlist/wish-list.html"><i class="fa fa-heart-o"></i>
+                            <span class="badge-wishlist">4</span></a>
+                    </li>
+                    <li><a class="add-cart-btn btn" href="#"><i class="fa fa-shopping-cart"></i>
+                            <span class="badge-wishlist">2</span></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+        <h1>My Cart</h1>
+        <div class="cart">
+            <div class="products">
+                <div class="product">
+                    <img src="/wishlist/card-image.jpg">
+
+                    <div class="details">
+                        <h3 class="jean-name">Pepe Jeans</h3>
+                        <h4 class="jean-price">₹ 1,000</h4>
+                        <h4 class="offer">50% Off</h4>
+                        <div class="increament-decrement">
+                            <p class="quantity">quantity:</p>
+                            <button class="quan-btn">-</button>
+                            <p class="num-btn">1</p>
+                            <button class="quan-btn">+</button>
+                        </div>
+                        <div class="button">
+                            <button class="add-btn">Add to Cart</button>
+                            <button class="remove-btn">Remove from Cart</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-total">
+                <h2>Price Details</h2>
+                <hr>
+
+
+                <p>
+                    <span>Total items</span>
+                    <span>₹ 3,500</span>
+                </p>
+
+                <p>
+                    <span>Discount</span>
+                    <span>₹ 1000</span>
+                </p>
+                <p>
+                    <span>Delivary Charges</span>
+                    <span>₹ 450</span>
+                </p>
+                <hr>
+                <p>
+                    <span>Total Amount</span>
+                    <span>₹ 3950</span>
+                </p>
+                <hr>
+                <p>You will save ₹ 1000 on this order</p>
+                <a href="#">Proceed to Checkout</a>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
