@@ -6,8 +6,7 @@ Kids Store is onlone shopping for kids
 
 * [kids Store](https://friendly-feynman-ccbe74.netlify.app/)
 * [Wishlist](https://friendly-feynman-ccbe74.netlify.app/wishlist/wish-list.html)
-* [Login] (https://friendly-feynman-ccbe74.netlify.app/authentication/login)
-* [Signup] (https://friendly-feynman-ccbe74.netlify.app/authentication/login#)
 
+* [login](https://friendly-feynman-ccbe74.netlify.app/authentication/login)
 
  
