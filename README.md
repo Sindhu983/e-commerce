@@ -11,7 +11,6 @@ Kids Store is onlone shopping for kids
 
 * [Signup](https://friendly-feynman-ccbe74.netlify.app/authentication/login#)
 
-* [cart-magement] (https://friendly-feynman-ccbe74.netlify.app/cart/cart.html)
+* [cart] (https://friendly-feynman-ccbe74.netlify.app/cart/cart.html)
 
-* [product-list] (https://friendly-feynman-ccbe74.netlify.app/product%20list/product-list.html)
  
