@@ -13,3 +13,8 @@ Kids Store is onlone shopping for kids
 * [product-list](https://friendly-feynman-ccbe74.netlify.app/product%20list/product-list.html)
 * [cart](https://friendly-feynman-ccbe74.netlify.app/cart/cart.html)
 
+# Teck Stack Used
+
+* HTML
+* CSS
+
